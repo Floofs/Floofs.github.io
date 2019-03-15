@@ -1,13 +1,25 @@
+@font-face {
+	font-family: "Regular";
+	font-size: 9px;
+	src: url("../assets/fonts/8bitOperatorPlus-Regular.ttf");
+}
+@font-face {
+	font-family: "Bold";
+	font-size: 9px;	
+	src: url("../assets/fonts/8bitOperatorPlus-Bold.ttf");
+}
+
 $content-width: 800px;
-$main: #eff4ff;
-$font-style: 'Open Sans', sans-serif;
+$main: #ffffff;
+$main-background: #000000;
+$font-style: 'Regular', sans-serif;
 $font-color: #ffffff;
-$link-color: #00aba9;
-$link-hover-color: $main;
-$heading-font: 'Muli', sans-serif;
-$heading-font-color: #eff4ff;
-$light: #1d1d1d;
-$header:  #00aba9;
+$link-color: #ffffff;
+$link-hover-color: #ffc40d;
+$heading-font: 'Bold', sans-serif;
+$heading-font-color: #ffffff;
+$light: #ffffff;
+$header:  #603cba;
 
 *,
 *::before,
