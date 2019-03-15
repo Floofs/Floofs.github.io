@@ -5,7 +5,7 @@ date:   2018-06-07 18:27:15 -0600
 categories: games
 ---
 Krystal the Adventurer's original version, posted on Steam! <img src="/assets/images/krystal_question.png"> <br/>
-<iframe src="https://store.steampowered.com/widget/848770/" frameborder="0" width="646" height="190"></iframe>
+<iframe src="https://store.steampowered.com/widget/848770/" frameborder="0" width="100%" height="100%"></iframe>
 I started this game back in late March of 2018, as part of my high school's Independent Study final project. Through quick work, I created 2 levels 
 for each theme I decided on, and added a final platforming challenge level. This brought the total level count to 11, but they were really short levels.
 To compensate, I added a hard mode which removes Krystal's scarf from her sprite, takes away the ability to charge your attack, and made you take double
