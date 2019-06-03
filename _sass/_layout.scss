@@ -1,11 +1,11 @@
 body {
-	margin-bottom: 5vh;
+	margin-bottom: 5em;
 	background-color: $main-background;
 	margin: 0;
 	color: $font-color;
 	font-family: $font-style;
-	font-size: 1em;
-	line-height: 1.6;
+	font-size: 100%;
+	line-height: 1.2;
 	-webkit-font-smoothing: antialiased;
 }
 h1,
@@ -17,30 +17,30 @@ h3 {
 }
 h1 {
 	color: $main;
-	font-size: 2.5em;
+	font-size: 150%;
 	a {
 		text-decoration: none !important;
 	}
 }
 h2 {
-	font-size: 1.5em;
+	font-size: 125%;
 }
 a,
 a:visited {
 	color: $link-color;
-	text-decoration: underline;
+	text-decoration: none;
 	font-weight: bold;
 }
 a:hover {
 	color: $link-hover-color;
-	text-decoration: underline;
+	text-decoration: none;
 }
 header {
 	
-	padding: 0px 0px;
+	padding: 0vw 0vw;
 	text-align: center;
-	margin: 50px 0 0;
-	height: 15vh;
+	margin: 16px 0 0;
+	height: 128px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -48,8 +48,7 @@ header {
 main {
 	padding: 0 15px;
 	max-width: $content-width;
-	margin: 0 auto;
-	margin-bottom: 7vh;
+	margin: 1em auto 1em auto;
 }
 time {
 	color: #ffffff;
@@ -70,7 +69,7 @@ aside {
 	z-index: 2;
 	nav {
 		float: left;
-		max-width: 800px;
+		max-width: 800vw;
 		margin: 0 auto;
 		ul {
 			margin: 0;
@@ -82,10 +81,10 @@ aside {
 				a {
 					text-decoration: none;
 					display: block;
-					padding: 15px;
+					padding: 1em;
 					font-family: $heading-font;
-					line-height: 20px;
-					margin-bottom: 0px;
+					line-height: 1.2;
+					margin-bottom: 0vh;
 					box-shadow: 0;
 					&:hover,
 					&:active {
@@ -105,10 +104,10 @@ aside {
 footer {
 	position: fixed;
 	background: $header;
-	padding: 0px 7px;
+	padding: 1em;
 	text-align: center;
-	margin: 150px 0 0;
-	height: 5vh;
+	margin: 150vw 0 0;
+	height: 1em;
 	display: flex;
 	justify-content: center;
 	align-items: center;

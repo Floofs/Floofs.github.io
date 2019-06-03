@@ -10,7 +10,7 @@ layout: default
 }
 
 hr {
-width: 646px;
+width: 646;
 margin-left: 0px;
 margin-right: 0px;
 height: 2px;
@@ -24,15 +24,17 @@ opcaity: 0.1;
   margin-right: auto;
   width: 10%;
 }
+
+iframe {
+  display: block;
+  width: 100%;
+}
 </style>
 
 <h2>Hello, world!</h2>
 
-My name is Connor Huckaby and I'm a video game designer.
-To see my past projects, check out the links below!
-<br>
-<br>
-<img src="../assets/images/arrow_down.png" alt="Arrow down" class="center">
+<div>My name is Connor Huckaby and I'm a video game designer.
+To see my past projects, check out the links below!</div>
 
 <br>
 <b>Available on itch.io</b>
