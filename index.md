@@ -8,12 +8,37 @@ layout: default
 	font-size: 9px;	
 	src: url("../assets/fonts/8bitOperatorPlus-Bold.ttf");
 }
+
+hr {
+width: 646px;
+margin-left: 0px;
+margin-right: 0px;
+height: 2px;
+background-color:#666;
+opcaity: 0.1;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
 </style>
 
 <h2>Hello, world!</h2>
 
-My name's Connor Huckaby, and I'm a video game designer.
-If you'd like to see my past projects, you can click on their pages down below!
+My name is Connor Huckaby and I'm a video game designer.
+To see my past projects, check out the links below!
+<br>
+<br>
+<img src="../assets/images/arrow_down.png" alt="Arrow down" class="center">
 
-<iframe src="https://itch.io/embed/431589?linkback=true&amp;border_width=2&amp;dark=true" width="554" height="169" frameborder="0"></iframe>
-<iframe src="https://store.steampowered.com/widget/848770/?t=My%20first%20project%2C%20created%20in%20Game%20Maker%20Studio%201." frameborder="0" width="646" height="190"></iframe>
+<br>
+<b>Available on itch.io</b>
+<hr>
+<iframe src="https://itch.io/embed/431589?linkback=true&amp;border_width=2&amp;dark=true" width="646" height="160" frameborder="0"></iframe>
+<br>
+<b>Available on Steam</b>
+<hr>
+<iframe src="https://store.steampowered.com/widget/848770/?t=My%20first%20project%2C%20created%20in%20Game%20Maker%20Studio." frameborder="0" width="646" height="190"></iframe>
