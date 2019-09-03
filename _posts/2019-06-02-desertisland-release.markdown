@@ -5,8 +5,8 @@ date:   2019-06-02 00:00:00 -0000
 categories: releases
 ---
 Deserted Islanders is now released on itch.io!
-Get it [here]!
-<iframe src="https://itch.io/embed/431589" height="167" width="552" frameborder="0"></iframe>
+You can download it [here]!
+<iframe src="https://itch.io/embed/431589" height="167" width="100%" frameborder="0"></iframe>
 
 This was part of a challenge to design and code a game concept within a week.
 
