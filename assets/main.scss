@@ -68,7 +68,7 @@ ul, ol {
 
 li > ul,
 li > ol {
-  margin-bottom: 0; }
+  margin-bottom: 10px 0; }
 
 /**
  * Headings
@@ -125,6 +125,30 @@ pre {
     border: 0;
     padding-right: 0;
     padding-left: 0; }
+
+/**
+ * Buttons
+ */
+.button1 {
+  background-color: none;
+  border: 2px solid #7e3878;
+  border-radius: 24px;
+  width: 50%;
+  height: 100%;
+  color: #ffc40d;
+  padding: 8px 24px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100%;
+  background-image: url('/assets/img/tiled_triangle.png');
+  background-repeat: repeat;
+}
+.button1:hover {
+  border: 2px solid #7e3878;
+  color: #da532c;
+  text-decoration: none;
+}
 
 /**
  * Wrapper

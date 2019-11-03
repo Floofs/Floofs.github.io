@@ -5,4 +5,4 @@
 layout: home
 ---
 
-Welcome! My name's Connor Huckaby, and this is my portfolio on video games I've designed and/or written. Thanks for stopping by!
+Welcome! My name's Connor Huckaby, and this is my online portfolio. Thanks for stopping by!
