@@ -9,11 +9,16 @@ layout: default
 
   {{ content }}
 
+  <h2 class="post-list-heading">Games</h2>
+  Click on the icons below to be taken to their respective storepages.
+
+  <a class="button2" style="background-image: url('/assets/img/krystal-1.png');">111</a>
+
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul style="list-style-type:none; text-align: left; margin: 0;">
       {%- for post in site.posts -%}
-        <li style="margin: 10px 0; width: 100%;">
+        <li style="margin: 10px 0; width: 100%; vertical-align: middle;">
           {%- assign date_format = site.minima.date_format | default: "%b %d, %Y" -%}
           <a class="button1" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
           <span class="post-meta" style="margin-left: 2%;">{{ post.date | date: date_format }}</span>
