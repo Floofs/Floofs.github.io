@@ -153,7 +153,24 @@ pre {
 
 .button2 {
   background-color: none;
-  
+  background-color: none;
+  border: 2px solid #7e3878;
+  border-radius: 24px;
+  width: 50%;
+  height: 100%;
+  color: #ffc40d;
+  padding: 8px 24px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100%;
+  background-image: url('/assets/img/tiled_triangle.png');
+  background-repeat: repeat;
+}
+.button2:hover {
+  border: 2px solid #7e3878;
+  color: #da532c;
+  text-decoration: none;
 }
 
 /**
