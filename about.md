@@ -1,16 +1,22 @@
 ---
-layout: page
-title: About & Contact
-permalink: /about/
+layout: page 
+title: About
+
 ---
 
-My name is Connor Huckaby, and I'm a video game designer.
-I'm currently in my second year of college, and I'm majoring in Software Engineering and Software Design.
+## About
+I'm Connor (also known as Floofs), a programmer and pixel artist from the United States, as well as the author of this website.
 
-You can contact me here: <a href="mailto:connor@huckaby.dev">connor@huckaby.dev</a>
-You can see my projects and commits on my [GitHub] page.
+I'm familiar with multiple programming languages, such as Java, C/C++ (multiple college classes), HTML (work in high school, as well as this website), and GML (Game Maker Language, which I primarily use to create my games). I plan on making a post to further delve into what I understand of these languages, outside of any projects.
 
-My first finished project was [Krystal the Adventurer] back in June of 2018, and I released it on Steam with a development time of ~3 months. It's an old-school styled platformer that you can finish in about half an hour, and was my High School final project for Independent Study.
+I'm also very familiar with multiple art programs, but the one I lean on the most is Aseprite for its usage in my pixel and game artwork.
+<hr>
+## Contact
+You can reach me by using:
+- Email: <a href="mailto:david.huckaby11@gmail.com">david.huckaby11@gmail.com</a>
 
-[Krystal the Adventurer]: https://store.steampowered.com/app/848770/Krystal_the_Adventurer/
-[GitHub]: https://github.com/floofs
+I may be available for commissions or contract work.
+<hr>
+## How did you make this website?
+I used Jekyll, and the theme "Jekyll Clean Dark", which you can find here:
+<a href="https://github.com/streetturtle/jekyll-clean-dark">https://github.com/streetturtle/jekyll-clean-dark</a>

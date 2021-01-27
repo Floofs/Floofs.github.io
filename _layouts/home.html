@@ -1,33 +1,36 @@
 ---
-layout: default
+layout: page
 ---
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+{% for post in site.posts limit:10 %}
+<h2 class="post-title">
+    <a href="{{ post.url | relative_url }}">
+        {{ post.title }}
+    </a>
+</h2>
 
-  {{ content }}
-
-  <h2 class="post-list-heading">Games</h2>
-  <p>Click on the icons below to be taken to their respective storepages.</p>
-
-  <p>
-  <a class="button2" style="background-image: url('/assets/img/krystal-1.png');" width=100% href="https://store.steampowered.com/app/848770/Krystal_the_Adventurer/">Krystal the Adventurer (2018)<br>Independent Study HS Final</a>
-
-  <a class="button2" style="background-image: url('/assets/img/deserted-islanders-1.png');" width=100% href="https://floofs.itch.io/deserted-islanders">Deserted Islanders Prototype (2019)<br>One-Week Challenge</a>
-  </p>
-
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul style="list-style-type:none; text-align: left; margin: 0;">
-      {%- for post in site.posts -%}
-        <li style="margin: 10px 0; width: 100%; vertical-align: middle;">
-          {%- assign date_format = site.minima.date_format | default: "%b %d, %Y" -%}
-          <a class="button1" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-          <span class="post-meta" style="margin-left: 2%;">{{ post.date | date: date_format }}</span>
-        </li>
-      {%- endfor -%}
+<div class="post-meta">
+    <div class="post-time">
+        <i class="fa fa-calendar-alt"></i>
+        <time datetime='{{ post.date | date: "%Y-%m-%d" }}'>{{ post.date | date_to_string }}</time>
+    </div>
+    <ul>
+        {% for tag in post.tags %}
+        <li><a href="{{'/tag/' | append: tag | relative_url }}">{{ tag }}</a></li>
+        {% endfor %}
     </ul>
-  {%- endif -%}
+</div>
+
+<div class="post-descr">
+    <p>
+        {{ post.description }}
+    </p>
+</div>
+{% endfor %}
+
+
+<div class="post-footer">
+    <div class="column-full">
+        <h3><a href="{{ 'archive' | relative_url }}">Blog archive</a></h3>
+    </div>
 </div>
