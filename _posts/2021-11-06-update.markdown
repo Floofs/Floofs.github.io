@@ -10,6 +10,8 @@ tags:
 
 You can check out the project page on GitHub here: [https://github.com/Floofs/FoxSlope]
 
+![img]({{ '/assets/images/FoxSlopeScreenshot.PNG' | relative_url }}){:.center-image }*Image: Screenshot from the uploaded build.
+
 The project itself uses concepts found on Sonic Retro's Sonic Physics Guide, but to make it clear: it isn't perfect.
 Here's why:
 - I used different values for the constants to make movement easier.
