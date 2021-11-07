@@ -26,4 +26,4 @@ I won't be doing it for every little bit of course, but if it's something that I
 Finally, I'll be uploading some of my art here as a makeshift gallery, since it would help to add that to my portfolio. Keep in mind that most of this will be my usual pixel artwork!
 
 There's plenty of work to do, so I'll be writing it all down to be worked on between classwork.
-If there's any future updates to anything, I'll be sure to post it here. My GitHub is publically available, but most of my work is in private on there, since they're personal projects. If you need to contact me, I've got my /about page updated!
+If there's any future updates to anything, I'll be sure to post it here. My GitHub is publicly available, but most of my work is in private on there, since they're personal projects. If you need to contact me, I've got my /about page updated!
