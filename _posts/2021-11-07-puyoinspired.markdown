@@ -11,7 +11,7 @@ tags:
 Oh man, two days in a row?
 You can check out the project page on GitHub here: [https://github.com/Floofs/PuyoInspired]
 
-![img]({{ '/assets/images/PuyoInspiredScreenshot.PNG' | relative_url }}){:.center-image }*Image: Screenshot from the uploaded build.
+![img]({{ '/assets/images/PuyoInspiredScreenshot.PNG' | relative_url }}){:.center-image }*Image: Screenshot from the uploaded build.*
 
 I talked a lot about how this works on a basic level earlier this year when I was still working on this project.
 You can check that out [here].
