@@ -1,0 +1,198 @@
+@charset "UTF-8";
+/* CSS Document */
+/* FLOOFS'S WEBSITE CSS STYLE */
+
+/* GLOBALS */
+* {
+	color: plum;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	text-align: center;
+	border: none;
+	font-family: 'Segoe UI', sans-serif;
+	font-size: 2vh;
+}
+a {
+	color: white;
+	cursor: pointer;
+}
+a:visited {
+	color: plum;
+	cursor: pointer;
+}
+
+body {
+	background-color: #2e182c;
+	color: black;
+	transition-duration: 0.2s;
+	background-image: url("../img/tile.png");
+	background-repeat: repeat;
+}
+button {
+	color: blue;
+	background-color: black;
+	padding: 0.5vh;
+	border-radius: 16px;
+	width: 25%;
+	max-width: 450px;
+	-webkit-transition-duration: 0.1s;
+	transition-duration: 0.1s;
+	margin: auto;
+}
+button:hover {
+	color: white;
+	cursor: pointer;
+}
+button:active {
+	color: white;
+	cursor: pointer;
+}
+
+/* CLASSES */
+.titleFlexBox {
+	background-color: transparent;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-around;
+	padding-bottom: 1vh;
+}
+.titleButtonImages {
+	width: 100%;
+	max-width: 350px;
+	padding: 0.5vh;
+}
+.line {
+	border-bottom: 2px solid plum;
+    margin-top: 4px;
+    width: 100%;
+}
+
+/* IDs */
+#maxDiv {
+    width: 98vw;
+    height: 100%;
+    min-width: 525px;
+    min-height: 500px;
+    margin: auto;
+    overflow-y: visible;
+    transition-duration: 0.1s;
+}
+#mainTitleDiv {
+    background-color: transparent; 
+    width: 100%; 
+    min-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0vh;
+    margin-top: 1vh;
+    top: 0vh;
+}
+#mainMenuFlex {
+    background-color: #1d101d;
+    display: flex;
+	margin: auto;
+    margin-top: 1vh;
+	margin-bottom: 2vh;
+    width: 90%;
+    min-width: 500px;
+	max-width: 1200px;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: center;
+	border-radius: 16px;
+}
+.mainMenuChoiceDiv {
+	background-color: transparent;
+	cursor: pointer;
+	color: magenta;
+	transition-duration: 0.1s;
+	margin-left: 1vw;
+    margin-right: 1vw;
+	vertical-align: middle;
+}
+.mainMenuChoiceDiv:hover {
+	background-color: transparent;
+	cursor: pointer;
+	color: white;
+	transition-duration: 0.1s;
+}
+#blogDiv {
+    display: block;
+    background-color: black;
+    filter: drop-shadow(1vh 1vh 0vh #140013);
+	border-radius: 16px;
+    padding: 1vw;
+    width: 95vw; 
+    min-width: 500px;
+    max-width: 800px;
+	text-align: left;
+    margin-top: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+#codeDiv {
+    display: block;
+	color: white;
+    background-color: #343a40;
+    filter: noone;
+	border-radius: 4px;
+    padding: 16px;
+    width: 90%;
+	text-align: left;
+    min-width: 500px;
+    max-width: 800px;
+    margin-top: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+	font-family: "Courier New", monospace;
+	font-size: 1.5vh;
+}
+#footer {
+    opacity: 0.5;
+	color: white;
+    background-color: black;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+
+/* GALLERY STYLE */
+#galleryContentDiv {
+    display: flex;
+    background-color: transparent;
+    margin-top: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98vw; 
+    min-width: 500px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+.galleryThumbnail {
+    width: 100%;
+	border-radius: 16px;
+}
+div.gallery {
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    min-width: 250px;
+    max-width: 15vw;
+} 
+div.gallery img {
+    width: 100%;
+    height: auto;
+} 
+div.desc {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    text-align: center;
+    overflow: hidden;
+}

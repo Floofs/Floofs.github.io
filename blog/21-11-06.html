@@ -1,0 +1,74 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="description" content="The Works of Floofs">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+		<meta name="author" content="Floofs">
+		<title>Floofs.Dev</title>
+		<link href="../css/fd_style.css" rel="stylesheet" type="text/css" media="all">
+
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap" rel="stylesheet">
+	</head>
+  
+	<body>
+		<div id="maxDiv">
+			<main-header>
+				<nav>
+					<div id="mainTitleDiv">
+						<a href="../index.html">
+							<img src="../img/logo.png" style="margin: auto; display: block; cursor: pointer; width: 180px; filter: drop-shadow(1vh 1vh 0vh #140013);">
+						</a>
+						<div id="mainMenuFlex">
+							<a href="../index.html">
+								<div class="mainMenuChoiceDiv"><img src="../img/icons2-4.png" style="vertical-align: middle"> Blog</div>
+							</a>
+							<a href="../about.html">
+								<div class="mainMenuChoiceDiv"><img src="../img/icons2-1.png" style="vertical-align: middle"> About</div>
+							</a>
+							<a href="../gallery.html">
+								<div class="mainMenuChoiceDiv"><img src="../img/icons2-3.png" style="vertical-align: middle"> Gallery</div>
+							</a>
+							<a href="../games.html">
+								<div class="mainMenuChoiceDiv"><img src="../img/icons2-2.png" style="vertical-align: middle"> Games</div>
+							</a>
+						</div>
+					</div>
+				</nav>
+			</main-header>
+			
+			<div id="blogDiv">
+				<h1> FoxSlope Proof of Concept </h1>
+				<div class="line"></div><br>
+				You can check out the project page on GitHub here: <a href="https://github.com/Floofs/FoxSlope">https://github.com/Floofs/FoxSlope</a><br><br>
+				<div style="text-align: center;">
+					<img src="img/FoxSlopeScreenshot.png" style="width: 75%;"><br>
+					Image: Screenshot from the uploaded build.
+				</div><br>
+				The project itself uses concepts found on <a href="https://info.sonicretro.org/Sonic_Physics_Guide">Sonic Retro’s Sonic Physics Guide</a>, but to make it clear: it isn’t perfect.<br>
+				Here’s why:<br>
+				- I used different values for the constants to make movement easier.<br>
+				- I didn’t use the sensor system that the 16-bit Sonic titles use.<br>
+				- and I didn’t implement all 4 ‘modes’ for movement, just the main ‘Floor’ mode.<br>
+				(2024 Edit: On top of all this, the Physics Guide was nowhere as robust as it is now! Definitely have a look at that if you're curious!)<br><br>
+				
+				The gameplay is closer to the 8-bit Sonic titles as a result of these differences,
+				but the goal was to prove that it was easy enough to create - not to be 1:1 perfect to the 16-bit titles.
+				You can still get flung up walls like in Sonic the Hedgehog 2, and it’s possible to create a scripted loop system to replicate actual loop-de-loops
+				(it’s actually implemented already, it’s just not in the uploaded build). It’s how those older 8-bit titles handle the process,
+				to the point that if you try to go back through those loops, it acts like a wall in those games.<br><br>
+				Give the uploaded build a try if you’d like!
+			</div>
+			
+			<br><br><br>
+			
+			<main-footer>
+				<div id="footer">
+					<i>
+						All works created by Floofs, 2020-Present. All rights reserved. Not for repost, resale, or redistribution.
+					</i>
+				</div>
+			</main-footer>
+		</div>
+	</body>
+</html>
