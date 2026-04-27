@@ -1,0 +1,25 @@
+---
+layout: post
+title: "FoxSlope Proof of Concept"
+date: 2021-11-06 00:01
+description: I posted a Proof of Concept of Sonic physics in GMS2 on GitHub.
+tags:
+ - Game Maker Studio 2.3
+ - Game Development
+---
+
+You can check out the project page on GitHub here: [https://github.com/Floofs/FoxSlope]
+
+![img]({{ '/assets/images/FoxSlopeScreenshot.PNG' | relative_url }}){:.center-image }*Image: Screenshot from the uploaded build.*
+
+The project itself uses concepts found on Sonic Retro's Sonic Physics Guide, but to make it clear: it isn't perfect.
+Here's why:
+- I used different values for the constants to make movement easier.
+- I didn't use the sensor system that the 16-bit Sonic titles use.
+- and I didn't implement all 4 'modes' for movement, just the main 'Floor' mode.
+
+The gameplay is closer to the 8-bit Sonic titles as a result of these differences, but the goal was to prove that it was easy enough to create - not to be 1:1 perfect to the 16-bit titles. You can still get flung up walls like in Sonic the Hedgehog 2, and it's possible to create a scripted loop system to replicate actual loop-de-loops (it's actually implemented already, it's just not in the uploaded build). It's how those older 8-bit titles handle the process, to the point that if you try to go back through those loops, it acts like a wall.
+
+Give the uploaded build a try if you'd like!
+
+[https://github.com/Floofs/FoxSlope]: https://github.com/Floofs/FoxSlope
